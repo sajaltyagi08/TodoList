@@ -1,0 +1,53 @@
+body {
+    
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 5px; }
+
+    .inputDiv {
+        margin-top: 20px;
+        width: 300px;
+        height: 300px; }
+
+  .myInput{
+        padding: 9px;
+        border-color :  rgb(1, 171, 171);
+        color:  black;
+        font-weight: bold ;
+        outline: none; 
+       font-size: medium;
+    }
+     
+
+   .remove-btn {
+    background-color: red;
+   color: white;
+   margin: 2px;
+   border: none;
+   
+   }
+   
+
+.button {
+    grid-column: span 1;
+    padding: 05px;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    background-color: green;
+    border: 2px solid rgb(1, 171, 171);
+    border-radius: 10px;
+    cursor: pointer; }
+
+    .list {
+     color : black;
+     list-style-type: none;
+     font-size: 20px;
+     text-align: left;
+   
+     
+
+    }
